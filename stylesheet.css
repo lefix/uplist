@@ -1,0 +1,161 @@
+* {
+	position: relative;
+	margin: 0px;
+	font-family: sans-serif;
+}	
+
+body {
+	background: linear-gradient(#eee,#fff);
+	background-repeat: no-repeat;
+}
+
+p {
+	padding: 15px;
+}
+
+a {
+	color: #fff;
+	padding: 0px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#header {
+	background-color: #db4131;
+	height: 50px;
+	width: 100%;
+}
+
+#header-title {
+	position: absolute;
+	left: 0px;
+	padding: 0px;
+	bottom: 5px;
+}
+
+#header-title-text {
+	color: #fff;
+	font-size: 28px;
+	padding: 0px;
+	font-family: 'Merriweather', Georgia, serif;
+	font-weight: bold;
+}
+
+#header-nav {
+	position: absolute;
+	right: 0px;
+	bottom: 10px;
+	padding: 0px;
+}
+
+#header-nav-text {
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Merriweather', Georgia, serif;
+	font-weight: bold;
+	padding: 0px;
+}
+
+#header-block {
+	position: absolute;
+	height: 430px;
+	width: 100%;
+	background-color: #dbb;
+}
+
+.header-container {
+	width: 60%;
+	height: 50px;
+	min-width: 600px;
+	margin: 0px auto;
+}
+
+.header-block-container {
+	width: 60%;
+	height: 345px;
+	min-width: 600px;
+	margin: 0px auto;
+}
+
+#container {
+	top: 480px;
+	width: 60%;
+	min-width: 600px;
+	margin: 0px auto;
+}
+
+.title {
+	font-size: 46px;
+	font-family: 'Merriweather', Georgia, serif;
+	font-weight: bold;
+	color: #222;
+	margin-top: 45px;
+	padding-left: 0px;
+}
+
+.subtitle {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 28px;
+	color: #555;
+	padding-left: 0px;
+}
+
+p.box {
+	background-color: #fff;
+	border-radius: 4px;
+	border-color: #bbb;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#searchlist {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 350px;
+}
+
+#createlist {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 350px;
+}
+
+input.text {
+	width: 100%;
+	background-color: #fff;
+	border-radius: 4px;
+	border-color: #bbb;
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px;
+	margin-top: 15px;
+	color: #ff0;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 20px;
+	color: #222;
+}
+
+input.submit {
+	width: 100%;
+	background-color: #ddd;
+	border-radius: 4px;
+	border-color: #bbb;
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px;
+	margin-top: 15px;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 20px;
+	color: #222;
+}
+
+.list-title {
+	
+}
+
+.list-item {
+	margin-top: 15px;
+
+}
